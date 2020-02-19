@@ -3,3 +3,5 @@
 data(iris)
 
 head(iris)
+
+plot(Sepal.Width ~ Sepal.Length, data = iris, las = 1)
